@@ -29,8 +29,8 @@ import org.json.*;
 public class MainActivity extends Activity implements SensorEventListener {
 	
 	//which reflector socket server to post to? 
-    private static final String SOCKET_SERVER = "http://10.0.2.2:8080";
-	//private static final String SOCKET_SERVER = "http://192.168.0.101:8080";
+//    private static final String SOCKET_SERVER = "http://10.0.2.2:8080";
+	private static final String SOCKET_SERVER = "http://192.168.1.134:11097";
     
     //allow remote taking of pictures from a broadcast?
     private static final boolean ALLOW_REMOTE_CAMERA_SHOT =  true;
